@@ -99,7 +99,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
   padding: 50px 15px;
@@ -107,6 +107,8 @@ body {
 }
 
 .full-screen_title {
+  display: flex;
+  align-items: start;
   font-size: 50px;
   font-weight: 700;
   letter-spacing: 25px;
@@ -115,10 +117,11 @@ body {
 }
 
 .full-screen_text {
+  display: flex;
+  align-items: center;
   font-size: 18px;
   letter-spacing: 15px;
-  text-align: center;
-  margin: 0 0 100px 0;
+  line-height: 30px;
   color: #fff;
 }
 
